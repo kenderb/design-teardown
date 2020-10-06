@@ -60,6 +60,35 @@ form {
     width: 22%;
 }
 
+aside {
+    position: absolute;
+    right: 0;
+    margin-top: 2rem;
+    margin-right: 2.5rem;
+    align-items: center;
+    transform: scale(0.8);
+}
+
+aside button {
+    color: var(--gray-forth);
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border: var(--gray-forth) solid 2px;
+    border-radius: 1rem;
+}
+
+.box-circule {
+    margin-right: 1rem;
+}
+
+.eclipse-shape {
+    border: var(--gray-darker) solid 5px;
+    border-radius: 2rem;
+    margin: 0.4rem;
+    font-size: 3rem;
+    color: var(--gray-forth);
+}
+
 .nav-bar {
     font-weight: bold;
     justify-content: space-around;
@@ -141,8 +170,8 @@ form {
 .mini-photo {
     margin-top: 1rem;
     display: inline-block;
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 5rem;
+    height: 5rem;
     border: 0.3rem white solid;
     border-radius: 0.5rem;
     background-color: var(--gray-one);
@@ -151,7 +180,7 @@ form {
 
 .margin-articule {
     height: 100%;
-    margin: auto 4rem 0.01rem 6rem;
+    margin: auto 4rem auto 6rem;
     flex-direction: column;
 }
 
@@ -164,7 +193,7 @@ form {
 }
 
 .header-articule {
-    margin-top: 14rem;
+    margin-top: 12rem;
     align-items: center;
     margin-bottom: 2rem;
 }
@@ -182,7 +211,7 @@ form {
 }
 
 .hashtags {
-    margin-top: 1.5rem;
+    margin-top: 3rem;
 }
 
 .hashtags * + * {
