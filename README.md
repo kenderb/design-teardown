@@ -1,5 +1,5 @@
 
-!![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # HTML and CSS Smashing Magazine page clone
 
@@ -19,7 +19,7 @@ We created this project using some images and buttons tags, also we used flex bo
 
 ## Live Demo
 
-[Live Demo Link](https://kenderb.github.io/apple-page-clone/)
+[Live Demo Link](https://kenderb.github.io/smaching-magazinne/)
 
 ## How to run it
 
