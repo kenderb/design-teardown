@@ -61,6 +61,35 @@ form {
   width: 22%;
 }
 
+.aside-float {
+  position: absolute;
+  right: 0;
+  margin-top: 2rem;
+  margin-right: 2.5rem;
+  align-items: center;
+  transform: scale(0.8);
+}
+
+.aside-float button {
+  color: var(--gray-forth);
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border: var(--gray-forth) solid 2px;
+  border-radius: 1rem;
+}
+
+.box-circule {
+  margin-right: 1rem;
+}
+
+.eclipse-shape {
+  border: var(--gray-darker) solid 5px;
+  border-radius: 2rem;
+  margin: 0.4rem;
+  font-size: 3rem;
+  color: var(--gray-forth);
+}
+
 .nav-bar {
   font-weight: bold;
   justify-content: space-around;
