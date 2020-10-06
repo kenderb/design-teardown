@@ -290,6 +290,7 @@ form {
   font-size: 3rem;
   padding: 0.4rem 2rem 1.5rem;
 }
+
 .arow-two:hover {
   background-color: var(--gray-two);
 }
@@ -329,7 +330,8 @@ form {
   font-size: 2.5rem;
 }
 
-.cat-articule-content button {
+.cat-articule-content button,
+.shipping-now button {
   padding: 1rem;
   border: none;
   border-radius: 0.7rem;
@@ -347,4 +349,46 @@ form {
   border: 1rem solid var(--gray-two);
   border-radius: 10rem;
   background-color: var(--gray-dark);
+}
+
+.latest-link {
+  padding: 5.5rem;
+  width: 100vw;
+  text-align: center;
+}
+
+.latest-link  a{
+  color: var(--gray-two);
+  margin: auto;
+  border-bottom: 0.3rem solid var(--gray-darker);
+}
+.latest-link span {
+  font-size: 2.3rem;
+}
+
+.shipping-now {
+  background-image: linear-gradient( var(--gray-three), var(--gray-one)) ;
+}
+
+.shipping-now-content {
+  line-height: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--gray-forth);
+  padding: 5rem 20rem 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+.shipping-now-content .circle-avatar {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+}
+.shipping-now-content h2 {
+  line-height: 4rem;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+.shipping-now-content * + * {
+  margin-top: 2rem;
 }
