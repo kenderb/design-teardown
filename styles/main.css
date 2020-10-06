@@ -8,9 +8,9 @@
 
   --gray-one: #818181;
   --gray-two: #616161;
-  --gray-dark: #414141;
-  --gray-darker: #1f1f1f;
-  --gray-three: #474747;
+  --gray-dark: #303030;
+  --gray-darker: #272727;
+  --gray-three: #383838;
   --gray-forth: #cfcfcf;
 }
 
@@ -83,11 +83,12 @@ form {
 }
 
 .eclipse-shape {
-  border: var(--gray-darker) solid 5px;
-  border-radius: 2rem;
-  margin: 0.4rem;
-  font-size: 3rem;
-  color: var(--gray-forth);
+  padding: 0.2rem;
+  background-color: var(--gray-forth);
+  border-radius: 1rem;
+  font-size: 3.9rem;
+  color: var(--gray-two);
+  transform: rotate(75deg);
 }
 
 .nav-bar {
@@ -276,16 +277,74 @@ form {
 
 .grid-two {
   display: grid;
+  background-color: var(--gray-forth);
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 45rem 1fr;
+  grid-template-rows: auto 1fr 1fr;
   gap: 2rem;
 }
 
 .arow-two {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   font-size: 3rem;
+  padding: 0.4rem 2rem 1.5rem;
+}
+.arow-two:hover {
+  background-color: var(--gray-two);
 }
 
 .articule-two {
+  padding: 1rem;
+  min-height: 25rem;
+  position: relative;
   color: var(--gray-one);
   margin: 3rem 2rem 1.5rem 2rem;
+}
+
+.articule-two:hover {
+  transform: scale(1.2);
+  background-color: white;
+  box-shadow: 2rem 3rem 3rem 0.01rem #4d4d4d7a;
+}
+
+.cat-articule {
+  background-color: var(--gray-three);
+  color: var(--gray-forth);
+  border-radius: 1rem;
+}
+
+.cat-articule-content {
+  text-align: center;
+  min-height: 45rem;
+  padding: 1.8rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cat-articule-content h2 {
+  font-weight: lighter;
+  text-decoration: underline;
+  font-size: 2.5rem;
+}
+
+.cat-articule-content button {
+  padding: 1rem;
+  border: none;
+  border-radius: 0.7rem;
+  background-color: var(--gray-forth);
+}
+
+.cat-articule-content a {
+  text-decoration: underline;
+}
+
+.circle-avatar {
+  width: 13rem;
+  height: 13rem;
+  padding: 4rem;
+  border: 1rem solid var(--gray-two);
+  border-radius: 10rem;
+  background-color: var(--gray-dark);
 }
