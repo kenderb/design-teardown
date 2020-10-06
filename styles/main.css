@@ -88,6 +88,7 @@ footer h3 {
   font-size: 1rem;
   padding: 3rem  0.1rem 1rem;
 }
+
 .aside-float {
   position: absolute;
   right: 0;
@@ -132,6 +133,10 @@ footer h3 {
 .nav-bar ul {
   list-style-type: none;
   align-items: center;
+}
+
+.shipping-now-content * + * {
+  margin-top: 2rem;
 }
 
 .preview-articule * + * {
@@ -226,6 +231,18 @@ footer h3 {
   height: 100%;
   margin: auto 4rem 0.01rem 6rem;
   flex-direction: column;
+}
+
+.latest-link span {
+  font-size: 2.3rem;
+}
+
+.mini-article-footer span {
+  font-size: 1.5rem;
+}
+
+.see-guides span {
+  font-size: 1.5rem;
 }
 
 .header-articule div + span {
@@ -389,17 +406,14 @@ footer h3 {
   text-align: center;
 }
 
-.latest-link  a{
+.latest-link a {
   color: var(--gray-two);
   margin: auto;
   border-bottom: 0.3rem solid var(--gray-darker);
 }
-.latest-link span {
-  font-size: 2.3rem;
-}
 
 .shipping-now {
-  background-image: linear-gradient( var(--gray-three), var(--gray-one)) ;
+  background-image: linear-gradient(var(--gray-three), var(--gray-one));
 }
 
 .shipping-now-content {
@@ -424,10 +438,6 @@ footer h3 {
   text-decoration: underline;
 }
 
-.shipping-now-content * + * {
-  margin-top: 2rem;
-}
-
 .grid-three {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -437,8 +447,7 @@ footer h3 {
     "articule1 articule2"
     "articule3 articule4"
     "articule5 articule6"
-    "footer    footer"
-  ;
+    "footer    footer";
   gap: 2rem;
 }
 
@@ -448,7 +457,6 @@ footer h3 {
   grid-area: header;
   padding: 5rem 7rem;
 }
-
 
 .header-articules .mini-photo {
   border: 0.5rem solid var(--gray-darker);
@@ -461,7 +469,7 @@ footer h3 {
   padding: 2rem 5rem;
 }
 
-.mini-articules .mini-photo{
+.mini-articules .mini-photo {
   border-color: var(--gray-dark);
   padding: 2rem;
   margin-right: 2rem;
@@ -472,11 +480,8 @@ footer h3 {
   margin: auto;
   grid-area: footer;
 }
-.mini-article-footer span {
-  font-size: 1.5rem;
-}
 
-.book-part h2{
+.book-part h2 {
   margin-top: -1rem;
   font-size: 3rem;
   text-decoration: underline;
@@ -489,7 +494,7 @@ footer h3 {
 .book-part .mini-photo {
   position: relative;
   top: 3rem;
-  padding:  9rem 12rem;
+  padding: 9rem 12rem;
 }
 
 .grid-our-guides {
@@ -522,8 +527,8 @@ footer h3 {
 }
 
 .grid-our-guides-content h2 {
- font-size: 2.5rem;
- text-decoration: underline;
+  font-size: 2.5rem;
+  text-decoration: underline;
 }
 
 .cat-two {
@@ -533,10 +538,6 @@ footer h3 {
 .see-guides {
   padding: 3.5rem;
   background-color: var(--gray-forth);
-}
-
-.see-guides span {
-  font-size: 1.5rem;
 }
 
 .last-articule {
@@ -559,7 +560,7 @@ footer h3 {
   margin-bottom: 2rem;
 }
 
-.inline-list{
+.inline-list {
   margin: 1rem 10rem 2rem;
   font-size: 1.5rem;
 }
@@ -580,10 +581,10 @@ footer h3 {
 .last-list {
   line-height: 2rem;
   font-weight: lighter;
-  margin:  4rem 30rem 1rem;
+  margin: 4rem 30rem 1rem;
 }
 
-.last-list li{
+.last-list li {
   margin-right: 1rem;
   display: inline;
   list-style: none;
