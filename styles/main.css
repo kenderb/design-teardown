@@ -66,11 +66,27 @@ form {
 }
 
 footer {
+  text-align: center;
+  position: relative;
+  color: var(--gray-forth);
   background-color: var(--gray-darker);
+  min-height: 42rem;
 }
+
+footer p {
+  line-height: 2rem;
+  font-size: 0.8rem;
+  margin: 1rem 33rem;
+}
+
 footer img {
   filter: grayscale();
-  max-width: 9rem;
+  max-width: 11rem;
+}
+
+footer h3 {
+  font-size: 1rem;
+  padding: 3rem  0.1rem 1rem;
 }
 .aside-float {
   position: absolute;
@@ -522,6 +538,54 @@ footer img {
 .see-guides span {
   font-size: 1.5rem;
 }
+
 .last-articule {
   background-color: var(--gray-forth);
+}
+
+.bird-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+}
+
+.cat-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 10rem;
+  margin-bottom: 2rem;
+}
+
+.inline-list{
+  margin: 1rem 10rem 2rem;
+  font-size: 1.5rem;
+}
+
+.inline-list li {
+  display: inline;
+}
+
+.inline-list li::before {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  position: relative;
+  top: 0.3rem;
+  font-size: 2.6rem;
+  content: " \2022 ";
+}
+
+.last-list {
+  line-height: 2rem;
+  font-weight: lighter;
+  margin:  4rem 30rem 1rem;
+}
+
+.last-list li{
+  margin-right: 1rem;
+  display: inline;
+  list-style: none;
+  text-decoration: underline;
 }
