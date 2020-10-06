@@ -49,4 +49,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/kenderb/building-with-backgrounds-and-gradients/blob/apple-clone-page/LICENSE) licensed.
+This project is [MIT](https://github.com/kenderb/design-teardown/blob/page/LICENSE) licensed.
