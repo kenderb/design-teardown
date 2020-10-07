@@ -35,7 +35,7 @@ To get a local copy up and running follow these simple steps.
 
 👤 **KenderB**
 
-- GitHub: [@kenderb](https://github.com/githubhandle)
+- GitHub: [@kenderb](https://github.com/kenderb)
 - Twitter: [@KBTarts](https://twitter.com/KBTarts)
 - LinkedIn: [Kender Bolivar](https://www.linkedin.com/in/kender-bolivar-1736086b//)
 
